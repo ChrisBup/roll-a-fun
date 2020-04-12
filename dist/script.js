@@ -214,6 +214,7 @@ $(".question-btn").on("click", function(event) {
   } else {
     console.log("index = " + index);
   }
+  $(".turn").toggleClass("visible");
   event.preventDefault();
 });
 
@@ -231,6 +232,6 @@ $(".close-link").on("click", function(event) {
 });
 
 // move piece
-$("rect").on("click", function() {
+$(".icon").on("click", function() {
   $(this).toggleClass("visible");
 });

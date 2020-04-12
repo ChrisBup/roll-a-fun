@@ -96,11 +96,28 @@ header .options .option a.question-btn:hover {
   background: #040c94;
 }
 
+h2 {
+  color: #F4A95C;
+  margin-top: 2rem;
+  span {
+    font-weight: 700;
+    color: #f1902c;
+  }
+}
+.turn {
+  display: none;
+  font-weight: 700;
+  color: darken($peach,10%)
+}
+.turn.visible {
+  display: inline;
+}
+
 .roll-result-wrapper {
   position: relative;
   width: 100%;
   height: 100%;
-  margin-top: 2rem;
+  margin-top: 100px;
   opacity: 0;
 }
 .roll-result-wrapper.visible {
@@ -198,22 +215,17 @@ header .options .option a.question-btn:hover {
   left: 50%;
   transform: translateX(-50%);
   z-index: 1;
-  width: 100%;
+  width: 90%;
   height: auto;
 }
-.svg-wrapper svg .st0 {
-  fill: green;
-}
-.svg-wrapper svg .st1 {
-  fill: blue;
-}
-.svg-wrapper svg rect {
+
+.svg-wrapper svg .icon {
   opacity: 0;
 }
-.svg-wrapper svg rect:hover {
+.svg-wrapper svg .icon:hover {
   opacity: 0.125;
 }
-.svg-wrapper svg rect.visible {
+.svg-wrapper svg .icon.visible {
   opacity: 1;
 }
 
