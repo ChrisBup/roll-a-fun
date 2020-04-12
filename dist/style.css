@@ -1,0 +1,234 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+*:focus, *::before:focus, *::after:focus {
+  outline: none;
+}
+
+* {
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 400;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #FFEC81;
+}
+
+h1, p {
+  margin: 0;
+  padding: 0;
+  color: #6D214F;
+}
+
+h1 {
+  margin: 0;
+  font-size: 5rem;
+  font-weight: 700;
+  font-style: italic;
+  text-shadow: 1px 0px 1px #F4A95C, 0px 1px 1px #FFD599, 2px 1px 1px #F4A95C, 1px 2px 1px #FFD599, 3px 2px 1px #F4A95C, 2px 3px 1px #FFD599, 4px 3px 1px #F4A95C, 3px 4px 1px #FFD599, 5px 4px 1px #F4A95C, 4px 5px 1px #FFD599, 6px 5px 1px #F4A95C, 5px 6px 1px #FFD599, 7px 6px 1px #F4A95C;
+}
+
+.wrapper {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-items: center;
+}
+
+.game {
+  width: 100%;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 35%;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 1;
+}
+header .options {
+  display: flex;
+  margin-top: 2rem;
+}
+header .options .option:first-of-type {
+  margin-right: 1rem;
+}
+header .options .option a {
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+  display: block;
+  padding: 20px 40px;
+  border-radius: 100px;
+  text-decoration: none;
+}
+header .options .option a.roll-btn {
+  color: #FFD599;
+  background: #138357;
+}
+header .options .option a.roll-btn:hover {
+  background: #0d5639;
+}
+header .options .option a.question-btn {
+  color: #FFD599;
+  background: #3742fa;
+}
+header .options .option a.question-btn:hover {
+  background: #040c94;
+}
+
+.roll-result-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin-top: 2rem;
+  opacity: 0;
+}
+.roll-result-wrapper.visible {
+  opacity: 1;
+}
+.roll-result-wrapper .roll-result,
+.roll-result-wrapper #roll-result-background {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.roll-result-wrapper .roll-result {
+  width: 100%;
+  margin-top: -3px;
+  z-index: 2;
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: center;
+  color: white;
+}
+.roll-result-wrapper .roll-result span {
+  font-weight: 700;
+}
+.roll-result-wrapper #roll-result-background {
+  width: 100%;
+  z-index: 0;
+}
+
+.question-wrapper {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  width: 80%;
+  min-height: 400px;
+  min-height: 86vh;
+  padding: 20px;
+  background: #3742fa;
+}
+.question-wrapper .close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+.question-wrapper .close .close-link {
+  color: #7AE3DE;
+}
+.question-wrapper .close .close-link:hover {
+  color: white;
+}
+.question-wrapper .question-eyebrow {
+  color: #7AE3DE;
+}
+.question-wrapper .question {
+  display: flex;
+  margin-top: 1rem;
+  font-size: 2rem;
+  color: white;
+}
+.question-wrapper .question .question-img {
+  width: 420px;
+  height: auto;
+  margin-left: 1rem;
+}
+.question-wrapper .view-answer {
+  margin: 2rem 0;
+}
+.question-wrapper .view-answer .view-answer-link {
+  color: #7AE3DE;
+}
+.question-wrapper .view-answer .view-answer-link:hover {
+  color: white;
+}
+.question-wrapper .answer {
+  font-size: 2.5rem;
+  color: #FFEC81;
+  opacity: 0;
+}
+.question-wrapper .answer.visible {
+  opacity: 1;
+}
+
+.svg-wrapper {
+  width: 65%;
+  min-height: 600px;
+  position: relative;
+  z-index: 0;
+}
+.svg-wrapper svg {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+  width: 100%;
+  height: auto;
+}
+.svg-wrapper svg .st0 {
+  fill: green;
+}
+.svg-wrapper svg .st1 {
+  fill: blue;
+}
+.svg-wrapper svg rect {
+  opacity: 0;
+}
+.svg-wrapper svg rect:hover {
+  opacity: 0.125;
+}
+.svg-wrapper svg rect.visible {
+  opacity: 1;
+}
+
+.board-path-wrapper {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 0;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+}
+.board-path-wrapper .board-path {
+  width: 90%;
+  height: auto;
+}
