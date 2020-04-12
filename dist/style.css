@@ -185,6 +185,16 @@ h2 {
   height: auto;
   margin-left: 1rem;
 }
+
+.question-wrapper .question .question-img.large {
+  position: absolute;
+  width: auto;
+  height: 100%;
+  top: 0;
+  right: 0;
+  margin-left: 0;
+}
+
 .question-wrapper .view-answer {
   margin: 2rem 0;
 }

@@ -235,6 +235,10 @@ $(".question-btn").on("click", function(event) {
     console.log("index = " + index);
   }
   $(".turn").toggleClass("visible");
+  // enlarge image
+  $(".question-img").on("click", function(event) {
+    $(this).toggleClass("large");
+  });
   event.preventDefault();
 });
 
