@@ -6,7 +6,7 @@ let data = {
   },
   {
   "question": "What is the definition of&nbsp;<em>peregrination</em>?",
-  "answer": "A journey, especially a long or meandering one."
+  "answer": "A journey, especially a long or meandering one"
   },
   {
   "question": "Which animal has the longest neck?",
@@ -14,7 +14,7 @@ let data = {
   },
   {
   "question": "How many sides does a triangle have?",
-  "answer": "Three"
+  "answer": "3"
   },
   {
   "question": "What was the name of Vincent Van Gogh’s brother?",
@@ -37,7 +37,7 @@ let data = {
   "answer": "Martha Washington, Abigail Adams, Martha Jefferson, and Dolley Madison."
   },
   {
-  "question": "Daily Triple! Who painted this painting? Bonus for an extra space: what is the painting’s title? Bonus for six extra spaces: when was it painted?<img class='question-img' src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/219932/Las-Meninas-Diego-Velazquez.jpg'>",
+  "question": "Daily Triple! Who painted this painting? Bonus for an extra space: what is the painting’s title? Bonus for six extra spaces: when was it painted?<img class='question-img' src='./img/Las-Meninas-Diego-Velazquez.jpg'>",
   "answer": "<em>Las Meninas</em> by Velázquez, 1656"
   },
   {
@@ -62,7 +62,7 @@ let data = {
   },
   {
   "question": "If you freeze water, what do you get?",
-  "answer": "Ice."
+  "answer": "Ice"
   },
   {
   "question": "What is the name of the supermassive black hole at the center of the Milky Way galaxy?",
@@ -81,7 +81,7 @@ let data = {
   "answer": "No answer necessary"
   },
   {
-  "question": "Daily Triple! Who painted this painting? Bonus for an extra space: what is the painting’s title? Bonus for six extra spaces: when was it painted?<img class='question-img' src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/219932/The-Night-Watch-Rembrandt.webp'>",
+  "question": "Daily Triple! Who painted this painting? Bonus for an extra space: what is the painting’s title? Bonus for six extra spaces: when was it painted?<img class='question-img' src='./img/The-Night-Watch-Rembrandt.webp'>",
   "answer": "<em>The Night Watch</em> by Rembrandt, 1642"
   },
   {
@@ -114,7 +114,7 @@ let data = {
   },
   {
   "question": "What is the definition of&nbsp;<em>metadiegetic</em>?",
-  "answer": "Self-assertive or proud to an irritating degree."
+  "answer": "Pertaining to a secondary narrative embedded within the primary narrative (a story within a story)"
   },
   {
   "question": "What was the first pizzeria in the United States?",
@@ -126,7 +126,7 @@ let data = {
   },
   {
   "question": "How many legs does a spider have?",
-  "answer": "Eight."
+  "answer": "8"
   },
   {
   "question": "Who was the first person to run a mile in under four minutes? Bonus for an extra space: what year did they do it?",
@@ -142,7 +142,7 @@ let data = {
   },
   {
   "question": "Name three fruits.",
-  "answer": "Banana, berries, orange, apple, grapes, tomatoes, avocadoes, etc."
+  "answer": "Bananas, berries, oranges, apples, grapes, tomatoes, avocadoes, etc."
   },
   {
   "question": "What is the speed of light (c)? 276,314 meters per second, 299,792,458 meters per second, or 1,000,000 meters per second?",
@@ -153,11 +153,11 @@ let data = {
   "answer": "Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, and Neptune"
   },
   {
-  "question": "In the movie <em>Frozen</em>, what season does Olaf sing about?",
+  "question": "In the movie&nbsp;<em>Frozen</em>, what season does Olaf sing about?",
   "answer": "Summer"
   },
   {
-  "question": "What kind of vegetable is this?<img class='question-img' src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/219932/eggplant.jpg'>",
+  "question": "What kind of vegetable is this?<img class='question-img' src='./img/eggplant.jpg'>",
   "answer": "An eggplant"
   },
   {
@@ -169,7 +169,7 @@ let data = {
   "answer": "It is the German Beer purity Law issued by Duke Wilhelm IV Bavaria in 1516 and decreed that beer shall only contain barley, hops and water (they didn't know about yeast yet)."
   },
   {
-  "question": "What kid of house do birds build?",
+  "question": "What kind of house do birds build?",
   "answer": "A nest"
   },
   {
@@ -177,12 +177,12 @@ let data = {
   "answer": "Four"
   },
   {
-  "question": "Which item was <em>not</em> invented at The Bell Labs Building on Bethune Street in the West Village? The transistor, amplifiers, vaccuum tubes, solar panels, lasers, or voice scramblers?",
+  "question": "Which item was&nbsp;<em>not</em> invented at The Bell Labs Building on Bethune Street in the West Village? The transistor, amplifiers, vaccuum tubes, solar panels, lasers, or voice scramblers?",
   "answer": "Lasers"
   },
   {
   "question": "What is the definition of&nbsp;<em>bumptious</em>?",
-  "answer": "Self-assertive or proud to an irritating degree."
+  "answer": "Self-assertive or proud to an irritating degree"
   },
   {
   "question": "How many wheels does a car have?",
@@ -190,7 +190,7 @@ let data = {
   },
   {
   "question": "What does a bear do in winter?",
-  "answer": "Hibernate."
+  "answer": "Hibernate"
   }]
 }
 
