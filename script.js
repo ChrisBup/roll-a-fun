@@ -158,7 +158,7 @@ let data = {
   },
   {
   "question": "<p>What kind of vegetable is this?</p><img class='question-img' src='./img/eggplant.jpg'>",
-  "answer": "An eggplant"
+  "answer": "Eggplant (will accept aubergine or melanzane)"
   },
   {
   "question": "<p>Forget the number you rolled. Move one space for each of the five Platonic Polyhedrons you can name.</p>",
