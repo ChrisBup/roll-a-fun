@@ -177,6 +177,8 @@ h2 {
 .question-wrapper .question {
   display: flex;
   margin-top: 1rem;
+}
+.question-wrapper .question p {
   font-size: 2rem;
   color: white;
 }
