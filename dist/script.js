@@ -14,7 +14,7 @@ let data = {
   },
   {
   "question": "How many sides does a triangle have?",
-  "answer": "3"
+  "answer": "Three"
   },
   {
   "question": "What was the name of Vincent Van Gogh’s brother?",
@@ -86,7 +86,7 @@ let data = {
   },
   {
   "question": "Complete the stanza: \"The woods are lovely, dark and deep...\"",
-  "answer": "But I have promises to keep,<br>And miles to go before I sleep<br>And miles to go before I sleep."
+  "answer": "But I have promises to keep,<br>And miles to go before I sleep,<br>And miles to go before I sleep."
   },
   {
   "question": "What is 3 + 3 + 3?",
@@ -126,7 +126,7 @@ let data = {
   },
   {
   "question": "How many legs does a spider have?",
-  "answer": "8"
+  "answer": "Eight"
   },
   {
   "question": "Who was the first person to run a mile in under four minutes? Bonus for an extra space: what year did they do it?",
@@ -134,7 +134,7 @@ let data = {
   },
   {
   "question": "What is the 15th Amendment? Slavery outlawed, rights of citizenship, voting rights for all races, federal income taxes, or the election of senators by popular vote?",
-  "answer": "Voting Rights for All Races"
+  "answer": "Voting rights for all races"
   },
   {
   "question": "Name three animals that lay eggs.",
@@ -166,7 +166,7 @@ let data = {
   },
   {
   "question": "Daily Triple! What is the Reinheitsgebot? Bonus for an extra space: what does it decree? Bonus for six extra spaces: when was it issued?",
-  "answer": "It is the German Beer purity Law issued by Duke Wilhelm IV Bavaria in 1516 and decreed that beer shall only contain barley, hops and water (they didn't know about yeast yet)."
+  "answer": "It is the German beer purity Law issued by Duke Wilhelm IV Bavaria in 1516 and decreed that beer shall only contain barley, hops and water (they didn't know about yeast yet)."
   },
   {
   "question": "What kind of house do birds build?",
