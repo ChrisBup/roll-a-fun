@@ -161,7 +161,7 @@ let data = {
   "answer": "An eggplant"
   },
   {
-  "question": "<p>Forget the number you rolled. Move one space for each of the five Platonic ployhedrons you can name.</p>",
+  "question": "<p>Forget the number you rolled. Move one space for each of the five Platonic Polyhedrons you can name.</p>",
   "answer": "Tetrahedron, cube, octahedron, dodecahedron, and icosahedron"
   },
   {
