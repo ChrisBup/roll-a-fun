@@ -69,8 +69,8 @@ let data = {
   "answer": "Sagittarius A*"
   },
   {
-  "question": "<p>How long is a zeptosecond? A thousandth of a second, a billionth of a second, a trillionth of a second, or a trillionth of a billionth of a second?</p>",
-  "answer": "A zeptosecond is a trillionth of a billionth of a second. It's the time that a Higgs Boson exists in experiments at the LHC. A millisecond is a thousandth of a second. A nanosecond is a billionth of a second. And a picosecond is a trillionth of a second."
+  "question": "<p>How long is a zeptosecond? A billionth of a second, a trillionth of a second, or a trillionth of a billionth of a second?</p>",
+  "answer": "A zeptosecond is a trillionth of a billionth of a second. It's the time that a Higgs Boson exists in experiments at the LHC. A nanosecond is a billionth of a second. And a picosecond is a trillionth of a second."
   },
   {
   "question": "<p>What do caterpillars turn into?</p>",
