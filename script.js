@@ -5,8 +5,8 @@ let data = {
   "answer": "435"
   },
   {
-  "question": "<p>What is the definition of&nbsp;<em>peregrination</em>?</p>",
-  "answer": "A journey, especially a long or meandering one"
+  "question": "<p>What is the definition of&nbsp;<em>peruse</em>?</p>",
+  "answer": "To read in a thorough or careful way"
   },
   {
   "question": "<p>Which animal has the longest neck?</p>",
